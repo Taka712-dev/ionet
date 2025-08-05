@@ -1,1 +1,767 @@
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},t=Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="e84f55ce-09be-47e8-ac14-7f6711553a05",e._sentryDebugIdIdentifier="sentry-dbid-e84f55ce-09be-47e8-ac14-7f6711553a05")}catch(e){}}(),(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5203],{53725:function(e,t,s){Promise.resolve().then(s.bind(s,83979))},83979:function(e,t,s){"use strict";s.r(t),s.d(t,{default:function(){return H}});var a=s(57437),i=s(71016),l=s(15384),n=s(93191),r=s(66648),o={src:"/_next/static/media/hero-bg.03714881.png",height:4757,width:5760,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAGFBMVEVMaXEPHCkbJjfF7fxbkbao1evB5/gIDCnQmKjoAAAACHRSTlMADhuSHFB5PfXp5+0AAAAJcEhZcwAALEsAACxLAaU9lqkAAAAfSURBVHicY2BgYGBgYgSRIAYzG5jJyMLMyo4igwMAAAaEACdA+qAGAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:7},d={src:"/_next/static/media/hero-bg.76fedd44.png",height:1958,width:1500,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAGFBMVEVMaXESHjMSGS3F5fpphKVrn9K77v/i+/9U730RAAAACHRSTlMALD12RxY80e3DJK4AAAAJcEhZcwAALEsAACxLAaU9lqkAAAAjSURBVHicY2BAAUyMbMysDAyMLOzsLEwMDKzMbIxMqCqgAAAHeAA8LXUIaQAAAABJRU5ErkJggg==",blurWidth:6,blurHeight:8},c=s(89733),A=s(49354),h=s(65461),m=s(6432),u=s(2097),x=s(2265),g=()=>{let[e,t]=(0,x.useState)(!1);return(0,a.jsxs)(l.T,{children:[(0,a.jsxs)("div",{className:"relative w-full pb-12 pt-[14.6rem] lg:pb-40 lg:pt-20",children:[(0,a.jsxs)("div",{className:"max-w-[586px]",children:[(0,a.jsxs)("h1",{className:"mb-4 text-5xl font-medium max-lg:text-center lg:text-[64px] lg:leading-[72px]",children:["Build and Scale AI ",(0,a.jsx)("br",{className:"lg:hidden"})," with IO Intelligence"]}),(0,a.jsx)("p",{className:"mb-6 max-w-[440px] text-base font-normal leading-6 text-[#737373] max-lg:text-center",children:"Develop for the decentralized Supercloud. Inference, agents, and search at up to 90% cost savings."}),(0,a.jsxs)("div",{className:"flex gap-3 max-lg:justify-center",children:[(0,a.jsx)(i.StartButton,{className:"rounded-full pr-[35px] leading-5",inverted:!0,trackingEvent:{banner_type:"side",trackingType:h.n.INTEL_GET_STARTED_CLICKED},mt:"0",url:n.Dk,target:"_blank",title:"Get Started Now"}),(0,a.jsx)(c.z,{className:(0,A.cn)((0,c.d)({variant:"ghost"}),"group relative w-fit gap-1 rounded-full border border-[#262626] bg-transparent pr-[16px] leading-5 transition-all dark:hover:bg-white dark:hover:text-black dark:hover:opacity-75"),onClick:()=>{t(!0),(0,m.L)(h.n.CONTACT_SALES_CLICKED,{type:"io cloud"}),window.dataLayer=window.dataLayer||[],console.log("Contact Sales button clicked"),window.dataLayer.push({event:"CONTACT_SALES_CLICKED"})},children:"Contact Sales"})]})]}),(0,a.jsx)(r.default,{src:o,alt:"background",className:"pointer-events-none absolute top-[2rem] z-[-1] scale-[1.2] max-lg:hidden max-lg:scale-[0.9]"}),(0,a.jsx)(r.default,{src:d,alt:"background",className:"pointer-events-none absolute top-[-7rem] z-[-1] lg:hidden"})]}),(0,a.jsx)(u.Z,{open:e,isOpen:t})]})},p=e=>(0,a.jsx)("svg",{width:16,height:16,...e,viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:(0,a.jsx)("path",{d:"M10 7.94595L5.94595 12L5 11.0541L8.10811 7.94595L5 4.83784L5.94595 3.89189L10 7.94595Z",fill:"#A9A9A9",style:{fill:"color(display-p3 0.6627 0.6627 0.6627)",fillOpacity:1}})}),f=s(87138),w={src:"/_next/static/media/bg.3e1b60bf.png",height:547,width:1440,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAFVBMVEUDAgMHCAgNCwsBAQEGBgYJCQkHCQogVtvSAAAAB3RSTlP+vUG3WsTEcPMTKAAAAAlwSFlzAAALEwAACxMBAJqcGAAAABtJREFUeJxjYGJlZGRkZGNiYGEAAxYGZgiDGQACSwAifkv9TgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:3},b={src:"/_next/static/media/chat.e6bea2ff.png",height:880,width:1500,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAG1BMVEUqKioSEhIKCgoLCwoGBwkMDw8GBgYQExMCAgKmZGHGAAAACHRSTlMDNsfG4ad4axcR0MsAAAAJcEhZcwAALEsAACxLAaU9lqkAAAAcSURBVHicY2BmYmNkAAEODg4OFlZ2RjADBDAZABJ1AP72o1S4AAAAAElFTkSuQmCC",blurWidth:8,blurHeight:5},C=()=>(0,a.jsxs)(l.T,{className:"relative pt-[171px] md:pt-[28rem]",children:[(0,a.jsx)(r.default,{src:w,alt:"background",className:"pointer-events-none absolute top-[-420px] z-[-1] scale-[1.20] max-md:hidden"}),(0,a.jsx)(r.default,{src:b,alt:"background",className:"pointer-events-none absolute top-[-10.5rem] z-[-1] scale-[1.1] md:hidden"}),(0,a.jsx)("div",{className:"flex w-full justify-between max-md:flex-col max-md:gap-8 max-sm:max-w-[343px] md:px-6",children:k.map(e=>(0,a.jsxs)("div",{className:"z-10 flex max-w-[364px] flex-col gap-3",children:[(0,a.jsxs)("div",{className:"flex gap-2",children:[(0,a.jsx)(e.icon,{className:"h-6 w-6"}),(0,a.jsx)("h3",{className:"text-base font-medium leading-6",children:e.title})]}),(0,a.jsx)("p",{className:"text-sm leading-5 text-[#737373] md:leading-6",children:e.description}),(0,a.jsxs)(f.default,{href:e.href,onClick:()=>{(0,m.L)(h.n.IO_DOCS_CLICKED)},className:"flex h-4 items-center gap-1 text-xs font-medium leading-5 text-white hover:underline md:text-sm",children:["Learn more",(0,a.jsx)(p,{className:"h-4 w-4"})]})]}))})]});let k=[{title:"Modular APIs for AI Development",icon:e=>(0,a.jsxs)("svg",{...e,width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[(0,a.jsx)("path",{d:"M20.1211 8.71702V15.2822C20.1211 16.152 19.6569 16.9561 18.9037 17.391L13.218 20.6731C12.4648 21.109 11.5363 21.109 10.7831 20.6731L5.09739 17.391C4.3442 16.9561 3.87994 16.152 3.87994 15.2822V8.71702C3.87994 7.84727 4.3442 7.04315 5.09739 6.60828L10.7831 3.32616C11.5363 2.89128 12.4648 2.89128 13.218 3.32616L18.9037 6.60828C19.6569 7.04315 20.1211 7.84727 20.1211 8.71702Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{d:"M12 20.9464V12.0275",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{d:"M19.724 7.56834L12.0001 12.0275L4.27545 7.56738",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"})]}),description:"Build and deploy AI applications. Orchestrate inference, route compute dynamically, scale global GPU infrastructure.",href:n.cI},{title:"Privacy-Preserving Workflows",icon:e=>(0,a.jsxs)("svg",{...e,width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[(0,a.jsx)("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M3.75586 18.2795C3.75586 19.3655 4.63684 20.2455 5.72284 20.2455C6.80784 20.2455 7.68884 19.3655 7.68884 18.2795C7.68884 17.1935 6.80784 16.3125 5.72284 16.3125C4.63684 16.3125 3.75586 17.1935 3.75586 18.2795Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M16.3965 5.63885C16.3965 6.72485 17.2765 7.60486 18.3625 7.60486C19.4485 7.60486 20.3295 6.72485 20.3295 5.63885C20.3295 4.55286 19.4485 3.67188 18.3625 3.67188C17.2765 3.67188 16.3965 4.55286 16.3965 5.63885Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M12.0004 15.3166C12.0004 15.3166 14.6994 14.4996 14.6994 12.2476C14.6994 9.9936 14.7974 9.8196 14.5804 9.6006C14.3634 9.3826 12.3544 8.68359 12.0004 8.68359C11.6464 8.68359 9.63738 9.3846 9.42038 9.6006C9.20338 9.8176 9.30136 9.9936 9.30136 12.2476C9.30136 14.5006 12.0004 15.3166 12.0004 15.3166Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{d:"M3 11.988C3.009 7.01501 7.03197 3 12.004 3C13.783 3 15.441 3.51899 16.83 4.40799",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}),(0,a.jsx)("path",{d:"M20.9998 11.9961C20.9998 16.9691 16.9767 21.0001 12.0037 21.0001C10.2257 21.0001 8.56773 20.4821 7.17773 19.5931",stroke:"white","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"})]}),description:"Leverage split-execution architecture. Process sensitive local workloads securely. Tap into the world’s largest network of tokenized GPUs.",href:n.cI},{title:"Cross-Platform Scalability",icon:e=>(0,a.jsxs)("svg",{...e,width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[(0,a.jsx)("path",{d:"M8.50781 5.75009C8.50781 4.50747 9.51517 3.50012 10.7578 3.50012H13.2634C14.506 3.50012 15.5134 4.50747 15.5134 5.75009C15.5134 6.99272 14.506 8.00007 13.2634 8.00007H10.7578C9.51517 8.00007 8.50781 6.99272 8.50781 5.75009Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round"}),(0,a.jsx)("path",{d:"M3 18.2499C3 17.0073 4.00734 16 5.24997 16H7.75558C8.9982 16 10.0055 17.0073 10.0055 18.2499C10.0055 19.4925 8.9982 20.4999 7.75558 20.4999H5.24997C4.00734 20.4999 3 19.4925 3 18.2499Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round"}),(0,a.jsx)("path",{d:"M14 18.25C14 17.0074 15.0073 16.0001 16.25 16.0001H18.7556C19.9982 16.0001 21.0055 17.0074 21.0055 18.25C21.0055 19.4926 19.9982 20.5 18.7556 20.5H16.25C15.0073 20.5 14 19.4926 14 18.25Z",stroke:"white","stroke-width":"1.5","stroke-linecap":"round"}),(0,a.jsx)("path",{d:"M12 8.00012V10.0002M12 10.0002C12 11.1047 12.8954 12.0002 14 12.0002H15.5C16.6045 12.0002 17.5 12.8956 17.5 14.0002V16.0002M12 10.0002C12 11.1047 11.1045 12.0002 10 12.0002H8.5C7.39543 12.0002 6.5 12.8956 6.5 14.0002V16.0002",stroke:"white","stroke-width":"1.5","stroke-linecap":"round"})]}),description:"Access IO Intelligence anywhere. Native desktop and mobile apps. Seamlessly integrate with DeFi agents, enterprise LLM tooling, or real-time ML apps.",href:n.cI}];var v={src:"/_next/static/media/Benchmark-union.68e9f2af.svg",height:684,width:1440,blurWidth:0,blurHeight:0},j=s(69063),N=s.n(j);let L=[{value:"deepseek",logo:{src:"/_next/static/media/deeepseeeek.42a47bff.svg",height:32,width:113,blurWidth:0,blurHeight:0}},{value:"Anthropic",logo:{src:"/_next/static/media/Anthropic_Logo_0.e1b4c215.svg",height:32,width:161,blurWidth:0,blurHeight:0}},{value:"databricks",logo:{src:"/_next/static/media/databricks.7d20fc3f.svg",height:32,width:158,blurWidth:0,blurHeight:0}},{value:"google",logo:{src:"/_next/static/media/google.66b30c88.svg",height:32,width:72,blurWidth:0,blurHeight:0}},{value:"meta",logo:{src:"/_next/static/media/meta.e911b50c.svg",height:32,width:110,blurWidth:0,blurHeight:0}},{value:"microsoft",logo:{src:"/_next/static/media/microsoft.be8b4cbc.svg",height:32,width:114,blurWidth:0,blurHeight:0}},{value:"mistral",logo:{src:"/_next/static/media/mistral.317d4b14.svg",height:32,width:98,blurWidth:0,blurHeight:0}},{value:"openai",logo:{src:"/_next/static/media/openai.a0138e08.svg",height:32,width:88,blurWidth:0,blurHeight:0}}];var y=()=>(0,a.jsxs)("div",{className:"relative -m-6 flex w-full flex-col items-center justify-center gap-12 pb-[112px] pt-[97px] md:gap-[62px] md:pt-[179px]",children:[(0,a.jsx)(r.default,{src:v,alt:"background",className:"pointer-events-none absolute top-[145px] max-md:scale-[3.3] md:top-[-45px]"}),(0,a.jsxs)("div",{className:"flex max-w-[670px] flex-col items-center gap-4 lg:gap-6",children:[(0,a.jsxs)("h2",{className:"text-center text-4xl font-medium leading-10 md:text-[48px] md:leading-[56px]",children:["IO Intelligence ",(0,a.jsx)("br",{className:"md:hidden"})," Leads ",(0,a.jsx)("br",{className:"max-md:hidden"})," the AI"," ",(0,a.jsx)("br",{className:"md:hidden"})," Developer Space"]}),(0,a.jsxs)("p",{className:"text-center text-base font-normal leading-6 text-[#737373]",children:["Benchmarked for speed, scalability, and cost ",(0,a.jsx)("br",{className:"md:hidden"})," efficiency. Outperforming centralized ",(0,a.jsx)("br",{className:"md:hidden"}),"platforms. Deploy AI applications up to 40% ",(0,a.jsx)("br",{className:"md:hidden"})," faster and 90% cheaper."]})]}),(0,a.jsx)("div",{className:"relative max-w-[574px]",children:(0,a.jsx)(N(),{width:"200px",duration:40,blurBorders:!0,blurBoderColor:"#000000",children:L.map((e,t)=>{let{value:s,logo:i}=e;return(0,a.jsx)(N().Slide,{children:(0,a.jsx)(r.default,{src:i,alt:s,height:32})},t)})})})]}),M={src:"/_next/static/media/faq-bg.920b5fee.png",height:2764,width:5760,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAElBMVEVMaXEAAAD///////8AAAAfHx9CfXPzAAAABnRSTlMAEAElY5rWdjFDAAAACXBIWXMAACxLAAAsSwGlPZapAAAAIklEQVR4nB3IwQ0AAAjCwAKy/8pG+7oUwOYyCU+1+qUZwQICUgAlPd2l4wAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:4},E={src:"/_next/static/media/faq-bg.cb13280e.png",height:1576,width:1500,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVLVmAAAACex+YCAgMAAAABAQEAAAAAAAD6+/0Yc5zN0tX///9sbG1bbmLwAAAADXRSTlMB4QhfcO3LR2sPM5yhyYqLoQAAAAlwSFlzAAAsSwAALEsBpT2WqQAAADVJREFUeJxNyTcOACAMBMFzOhP8//ciIwq2GmmBL9WHMZo6195rKtK8yixBuRGUiAhhL3e3PBlyAORAoQrtAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},I=s(55857),S=s(59676),B=()=>(0,a.jsx)(l.T,{children:(0,a.jsxs)("div",{className:"relative flex w-full flex-col items-center pt-[223px] md:pt-[461px]",children:[(0,a.jsx)(r.default,{src:M,alt:"background",className:"pointer-events-none absolute top-16 z-[-1] scale-[1.3] max-md:hidden"}),(0,a.jsx)(r.default,{src:E,alt:"background",className:"pointer-events-none absolute -top-8 z-[-1] scale-[0.9] md:hidden"}),(0,a.jsx)(S.U,{device:"desktop",src:"/riv/iointeligence.riv",width:1440,height:1280,className:"content-shadows absolute z-[-1] h-[1316px] w-[1550px] object-contain max-md:hidden xl:mt-[-500px]"}),(0,a.jsxs)("div",{className:"flex max-w-[670px] flex-col items-center gap-4",children:[(0,a.jsxs)("h2",{className:"text-center text-4xl font-medium leading-10 md:text-[48px] md:leading-[56px]",children:["Frequently Asked ",(0,a.jsx)("br",{})," Questions"]}),(0,a.jsxs)("p",{className:"mb-2 text-center text-base font-normal leading-6 text-[#737373]",children:["Quick answers to questions you may have. ",(0,a.jsx)("br",{className:"md:hidden"})," Can't find what you're ",(0,a.jsx)("br",{className:"max-md:hidden"})," looking for? Check out our documentation"]}),(0,a.jsxs)(f.default,{className:(0,A.cn)((0,c.d)({variant:"default"}),"group relative w-fit gap-2 rounded-full bg-white pr-[16px] leading-5 transition-all"),onClick:()=>{(0,m.L)(h.n.IO_DOCS_CLICKED)},href:n.cI,children:[(0,a.jsx)(I.Z,{}),"Documentation"]})]}),(0,a.jsx)("div",{className:"mt-[3.2rem] grid grid-cols-2 gap-x-28 gap-y-[2.5rem] max-md:grid-cols-1 max-sm:max-w-[343px] md:mt-20 md:gap-y-16",children:D.map(e=>(0,a.jsxs)("div",{className:"flex max-w-[413px] flex-col gap-3",children:[(0,a.jsx)("h3",{style:{lineHeight:"28px"},className:"text-base font-medium leading-6 md:text-lg md:leading-7",dangerouslySetInnerHTML:{__html:e.question}}),(0,a.jsx)("p",{style:{lineHeight:"24px"},className:"text-base font-normal leading-6 text-[#737373]",dangerouslySetInnerHTML:{__html:e.answer}})]}))})]})});let D=[{question:"Is IO Intelligence free?",answer:"Every user receives usage credits for every model free of charge. No credit card required."},{question:"What AI models does IO Intelligence support?",answer:"We support a wide variety of the latest models from Google, Microsoft, Alibaba, Mistral, DeepSeek, and other premier frontier AI labs."},{question:"Can IO Intelligence support my business use case?",answer:"Yes! Please reach out to our team via the contact button or by sending a message to <a href='mailto:support@io.net' target='_blank' class='text-white underline'>support@io.net</a> with your specific business needs."},{question:"Can I integrate IO Intelligence with <br /> my existing stack?",answer:"Yes. SDKs for any OpenAI compatible API client are fully supported as well as the IO Agents Framework package published at <a href='https://github.com/ionet-official/iointel' target='_blank' class='text-white underline'>here</a>."}];var _=()=>(0,a.jsxs)("div",{className:"relative pb-12 pt-[265px]",children:[(0,a.jsx)("video",{src:"/RAG.mp4",autoPlay:!0,loop:!0,muted:!0,playsInline:!0,className:"absolute -top-[-4.1rem] z-[-1] w-full scale-[2.3] md:-top-[-1.1rem] md:scale-[1.9]"}),(0,a.jsxs)("div",{className:"relative flex max-w-[782px] flex-col items-center gap-4",children:[(0,a.jsx)("h2",{className:"text-center text-3xl font-medium leading-10 md:text-[48px] md:leading-[56px]",children:"Build with IO intelligence"}),(0,a.jsxs)("p",{className:"text-center text-base font-normal leading-6 text-[#737373] max-md:max-w-[343px] md:mb-2",children:["Competitive rates and the latest models. ",(0,a.jsx)("br",{className:"max-md:hidden"})," Secure and performant."]}),(0,a.jsx)(i.StartButton,{trackingEvent:{trackingType:h.n.INTEL_GET_STARTED_CLICKED},url:n.Dk,mt:"mt-0",inverted:!0,className:"rounded-full"})]})]}),H=()=>(0,a.jsxs)("div",{className:"flex flex-col items-center",children:[(0,a.jsx)(g,{}),(0,a.jsx)(C,{}),(0,a.jsx)(y,{}),(0,a.jsx)(B,{}),(0,a.jsx)(_,{})]})},59676:function(e,t,s){"use strict";s.d(t,{U:function(){return c}});var a=s(57437),i=s(2265),l=s(66648),n=s(49354),r=s(7544);let o=e=>{let{src:t,width:s,height:l,className:n="",...o}=e,{RiveComponent:d}=(0,r.useRive)({src:t,stateMachines:"State Machine 1",autoplay:!0},{useDevicePixelRatio:!0,customDevicePixelRatio:1}),c=(0,i.useMemo)(()=>({...s?{width:"".concat(s,"px")}:{},...l?{height:"".concat(l,"px")}:{}}),[s,l]);return(0,a.jsx)(d,{width:s,height:l,style:c,className:n,...o})};var d=s(99223);let c=e=>{let{id:t,src:s,width:r,height:c,allow:A="autoplay",responsive:h,className:m="",device:u,animateOnAllDevices:x=!1,onClick:g}=e,p=(0,d.F)(),f=(0,i.useRef)(null),[w,b]=(0,i.useState)(null),C="https://rive.app/s/".concat(t,"/embed");return(0,i.useEffect)(()=>{let{image:e,...i}=(null==h?void 0:h[u||p])||{};if(!x&&(e||"desktop"!==(u||p))){if(!e){b(null);return}b((0,a.jsx)(l.default,{src:e,alt:t||s,className:m,...i,onClick:g}));return}if(s){b((0,a.jsx)(o,{src:s,width:r,height:c,className:m,onClick:g}));return}console.log("Swap iframe rive animation to canvas embed for improved performance- ".concat(C)),b((0,a.jsx)("iframe",{ref:f,className:(0,n.cn)("border-0",m),width:r,height:c,src:C,allowFullScreen:!0,allow:A,...i}))},[h,t,s,r,c,m,A,C,f,u,x,g,p]),w}},55857:function(e,t,s){"use strict";var a=s(57437);s(2265),t.Z=()=>(0,a.jsxs)("svg",{width:"21",height:"20",viewBox:"0 0 21 20",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[(0,a.jsx)("path",{d:"M16.1415 8.58191V7.49866C16.1415 7.0584 15.9712 6.63434 15.6656 6.3157L12.5058 3.02462C12.1839 2.68895 11.7388 2.50003 11.2742 2.50003H6.56421C4.86394 2.49273 3.47097 3.84759 3.43043 5.54705V14.303C3.39313 16.03 4.76178 17.4611 6.48881 17.4992C6.51394 17.4992 9.8245 17.5 9.8245 17.5",stroke:"#0A0A0A",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round"}),(0,a.jsx)("path",{d:"M11.6758 2.55225V4.96278C11.6749 6.13926 12.6277 7.09359 13.8042 7.09602H16.0866",stroke:"#0A0A0A",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round"}),(0,a.jsx)("path",{d:"M10.9569 11.7573H7.01642M9.07262 8.31689H7.01562",stroke:"#0A0A0A",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round"}),(0,a.jsx)("path",{d:"M15.0308 11.7651C15.2739 11.344 15.8124 11.1997 16.2335 11.4428L16.8828 11.8177C17.3039 12.0608 17.4483 12.5993 17.2051 13.0204L15.1817 16.525C14.9875 16.8613 14.6778 17.1156 14.3101 17.2404L13.769 17.4241C13.4027 17.5485 13.0106 17.3221 12.9351 16.9427L12.8237 16.3822C12.748 16.0014 12.8133 15.606 13.0074 15.2697L15.0308 11.7651Z",stroke:"#0A0A0A",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round"})]})},99223:function(e,t,s){"use strict";s.d(t,{F:function(){return r}});var a=s(2265),i=s(762),l=s(22916);function n(e){let t=(0,l.ac)({query:"(min-width: ".concat(i.AV[e],")")}),s=e[0].toUpperCase()+e.substring(1);return{["is".concat(s)]:t}}let r=()=>{let{isMd:e}=n("md"),{isXl:t}=n("xl");return(0,a.useMemo)(()=>e?t?"desktop":"tablet":"phone",[e,t])}},762:function(e,t,s){"use strict";s.d(t,{AV:function(){return a},C3:function(){return r},J_:function(){return n},Ss:function(){return i},_Q:function(){return l}});let a={sm:"640px",md:"768px",lg:"1024px",xl:"1280px","2xl":"1374px"},i=e=>{if("string"!=typeof e)return null;let[t,s,a]=e.split("/").map(Number);return t&&s&&a?new Date(a,s-1,t):null},l=(e,t)=>{let s=new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric"}),a=i(e),l=i(t);return a||l?a&&!l?s.format(a):!a&&l?s.format(l):"".concat(s.format(a)," - ").concat(s.format(l)):"TBD"},n=e=>e instanceof Date,r=e=>{if(console.log(e),"string"==typeof e)return e.includes("://")?e:"https://".concat(e)}}},function(e){e.O(0,[4370,8173,4868,1374,231,4514,7287,9636,5817,1131,5827,5373,9231,2097,2971,5318,1744],function(){return e(e.s=53725)}),_N_E=e.O()}]);
+! function () {
+    try {
+        var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {},
+            t = Error().stack;
+        t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "e84f55ce-09be-47e8-ac14-7f6711553a05", e._sentryDebugIdIdentifier = "sentry-dbid-e84f55ce-09be-47e8-ac14-7f6711553a05")
+    } catch (e) {}
+}(), (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+    [5203], {
+        53725: function (e, t, s) {
+            Promise.resolve().then(s.bind(s, 83979))
+        },
+        83979: function (e, t, s) {
+            "use strict";
+            s.r(t), s.d(t, {
+                default: function () {
+                    return H
+                }
+            });
+            var a = s(57437),
+                i = s(71016),
+                l = s(15384),
+                n = s(93191),
+                r = s(66648),
+                o = {
+                    src: "/_next/static/media/hero-bg.03714881.png",
+                    height: 4757,
+                    width: 5760,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAGFBMVEVMaXEPHCkbJjfF7fxbkbao1evB5/gIDCnQmKjoAAAACHRSTlMADhuSHFB5PfXp5+0AAAAJcEhZcwAALEsAACxLAaU9lqkAAAAfSURBVHicY2BgYGBgYgSRIAYzG5jJyMLMyo4igwMAAAaEACdA+qAGAAAAAElFTkSuQmCC",
+                    blurWidth: 8,
+                    blurHeight: 7
+                },
+                d = {
+                    src: "/_next/static/media/hero-bg.76fedd44.png",
+                    height: 1958,
+                    width: 1500,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAGFBMVEVMaXESHjMSGS3F5fpphKVrn9K77v/i+/9U730RAAAACHRSTlMALD12RxY80e3DJK4AAAAJcEhZcwAALEsAACxLAaU9lqkAAAAjSURBVHicY2BAAUyMbMysDAyMLOzsLEwMDKzMbIxMqCqgAAAHeAA8LXUIaQAAAABJRU5ErkJggg==",
+                    blurWidth: 6,
+                    blurHeight: 8
+                },
+                c = s(89733),
+                A = s(49354),
+                h = s(65461),
+                m = s(6432),
+                u = s(2097),
+                x = s(2265),
+                g = () => {
+                    let [e, t] = (0, x.useState)(!1);
+                    return (0, a.jsxs)(l.T, {
+                        children: [(0, a.jsxs)("div", {
+                            className: "relative w-full pb-12 pt-[14.6rem] lg:pb-40 lg:pt-20",
+                            children: [(0, a.jsxs)("div", {
+                                className: "max-w-[586px]",
+                                children: [(0, a.jsxs)("h1", {
+                                    className: "mb-4 text-5xl font-medium max-lg:text-center lg:text-[64px] lg:leading-[72px]",
+                                    children: ["Build and Scale AI ", (0, a.jsx)("br", {
+                                        className: "lg:hidden"
+                                    }), " with IO Intelligence"]
+                                }), (0, a.jsx)("p", {
+                                    className: "mb-6 max-w-[440px] text-base font-normal leading-6 text-[#737373] max-lg:text-center",
+                                    children: "Develop for the decentralized Supercloud. Inference, agents, and search at up to 90% cost savings."
+                                }), (0, a.jsxs)("div", {
+                                    className: "flex gap-3 max-lg:justify-center",
+                                    children: [(0, a.jsx)(i.StartButton, {
+                                        className: "rounded-full pr-[35px] leading-5",
+                                        inverted: !0,
+                                        trackingEvent: {
+                                            banner_type: "side",
+                                            trackingType: h.n.INTEL_GET_STARTED_CLICKED
+                                        },
+                                        mt: "0",
+                                        url: n.Dk,
+                                        target: "_blank",
+                                        title: "Get Started Now"
+                                    }), (0, a.jsx)(c.z, {
+                                        className: (0, A.cn)((0, c.d)({
+                                            variant: "ghost"
+                                        }), "group relative w-fit gap-1 rounded-full border border-[#262626] bg-transparent pr-[16px] leading-5 transition-all dark:hover:bg-white dark:hover:text-black dark:hover:opacity-75"),
+                                        onClick: () => {
+                                            t(!0), (0, m.L)(h.n.CONTACT_SALES_CLICKED, {
+                                                type: "io cloud"
+                                            }), window.dataLayer = window.dataLayer || [], console.log("Contact Sales button clicked"), window.dataLayer.push({
+                                                event: "CONTACT_SALES_CLICKED"
+                                            })
+                                        },
+                                        children: "Contact Sales"
+                                    })]
+                                })]
+                            }), (0, a.jsx)(r.default, {
+                                src: o,
+                                alt: "background",
+                                className: "pointer-events-none absolute top-[2rem] z-[-1] scale-[1.2] max-lg:hidden max-lg:scale-[0.9]"
+                            }), (0, a.jsx)(r.default, {
+                                src: d,
+                                alt: "background",
+                                className: "pointer-events-none absolute top-[-7rem] z-[-1] lg:hidden"
+                            })]
+                        }), (0, a.jsx)(u.Z, {
+                            open: e,
+                            isOpen: t
+                        })]
+                    })
+                },
+                p = e => (0, a.jsx)("svg", {
+                    width: 16,
+                    height: 16,
+                    ...e,
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: (0, a.jsx)("path", {
+                        d: "M10 7.94595L5.94595 12L5 11.0541L8.10811 7.94595L5 4.83784L5.94595 3.89189L10 7.94595Z",
+                        fill: "#A9A9A9",
+                        style: {
+                            fill: "color(display-p3 0.6627 0.6627 0.6627)",
+                            fillOpacity: 1
+                        }
+                    })
+                }),
+                f = s(87138),
+                w = {
+                    src: "/_next/static/media/bg.3e1b60bf.png",
+                    height: 547,
+                    width: 1440,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAFVBMVEUDAgMHCAgNCwsBAQEGBgYJCQkHCQogVtvSAAAAB3RSTlP+vUG3WsTEcPMTKAAAAAlwSFlzAAALEwAACxMBAJqcGAAAABtJREFUeJxjYGJlZGRkZGNiYGEAAxYGZgiDGQACSwAifkv9TgAAAABJRU5ErkJggg==",
+                    blurWidth: 8,
+                    blurHeight: 3
+                },
+                b = {
+                    src: "/_next/static/media/chat.e6bea2ff.png",
+                    height: 880,
+                    width: 1500,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAG1BMVEUqKioSEhIKCgoLCwoGBwkMDw8GBgYQExMCAgKmZGHGAAAACHRSTlMDNsfG4ad4axcR0MsAAAAJcEhZcwAALEsAACxLAaU9lqkAAAAcSURBVHicY2BmYmNkAAEODg4OFlZ2RjADBDAZABJ1AP72o1S4AAAAAElFTkSuQmCC",
+                    blurWidth: 8,
+                    blurHeight: 5
+                },
+                C = () => (0, a.jsxs)(l.T, {
+                    className: "relative pt-[171px] md:pt-[28rem]",
+                    children: [(0, a.jsx)(r.default, {
+                        src: w,
+                        alt: "background",
+                        className: "pointer-events-none absolute top-[-420px] z-[-1] scale-[1.20] max-md:hidden"
+                    }), (0, a.jsx)(r.default, {
+                        src: b,
+                        alt: "background",
+                        className: "pointer-events-none absolute top-[-10.5rem] z-[-1] scale-[1.1] md:hidden"
+                    }), (0, a.jsx)("div", {
+                        className: "flex w-full justify-between max-md:flex-col max-md:gap-8 max-sm:max-w-[343px] md:px-6",
+                        children: k.map(e => (0, a.jsxs)("div", {
+                            className: "z-10 flex max-w-[364px] flex-col gap-3",
+                            children: [(0, a.jsxs)("div", {
+                                className: "flex gap-2",
+                                children: [(0, a.jsx)(e.icon, {
+                                    className: "h-6 w-6"
+                                }), (0, a.jsx)("h3", {
+                                    className: "text-base font-medium leading-6",
+                                    children: e.title
+                                })]
+                            }), (0, a.jsx)("p", {
+                                className: "text-sm leading-5 text-[#737373] md:leading-6",
+                                children: e.description
+                            }), (0, a.jsxs)(f.default, {
+                                href: e.href,
+                                onClick: () => {
+                                    (0, m.L)(h.n.IO_DOCS_CLICKED)
+                                },
+                                className: "flex h-4 items-center gap-1 text-xs font-medium leading-5 text-white hover:underline md:text-sm",
+                                children: ["Learn more", (0, a.jsx)(p, {
+                                    className: "h-4 w-4"
+                                })]
+                            })]
+                        }))
+                    })]
+                });
+            let k = [{
+                title: "Modular APIs for AI Development",
+                icon: e => (0, a.jsxs)("svg", {
+                    ...e,
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [(0, a.jsx)("path", {
+                        d: "M20.1211 8.71702V15.2822C20.1211 16.152 19.6569 16.9561 18.9037 17.391L13.218 20.6731C12.4648 21.109 11.5363 21.109 10.7831 20.6731L5.09739 17.391C4.3442 16.9561 3.87994 16.152 3.87994 15.2822V8.71702C3.87994 7.84727 4.3442 7.04315 5.09739 6.60828L10.7831 3.32616C11.5363 2.89128 12.4648 2.89128 13.218 3.32616L18.9037 6.60828C19.6569 7.04315 20.1211 7.84727 20.1211 8.71702Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M12 20.9464V12.0275",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M19.724 7.56834L12.0001 12.0275L4.27545 7.56738",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    })]
+                }),
+                description: "Build and deploy AI applications. Orchestrate inference, route compute dynamically, scale global GPU infrastructure.",
+                href: n.cI
+            }, {
+                title: "Privacy-Preserving Workflows",
+                icon: e => (0, a.jsxs)("svg", {
+                    ...e,
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [(0, a.jsx)("path", {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M3.75586 18.2795C3.75586 19.3655 4.63684 20.2455 5.72284 20.2455C6.80784 20.2455 7.68884 19.3655 7.68884 18.2795C7.68884 17.1935 6.80784 16.3125 5.72284 16.3125C4.63684 16.3125 3.75586 17.1935 3.75586 18.2795Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M16.3965 5.63885C16.3965 6.72485 17.2765 7.60486 18.3625 7.60486C19.4485 7.60486 20.3295 6.72485 20.3295 5.63885C20.3295 4.55286 19.4485 3.67188 18.3625 3.67188C17.2765 3.67188 16.3965 4.55286 16.3965 5.63885Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M12.0004 15.3166C12.0004 15.3166 14.6994 14.4996 14.6994 12.2476C14.6994 9.9936 14.7974 9.8196 14.5804 9.6006C14.3634 9.3826 12.3544 8.68359 12.0004 8.68359C11.6464 8.68359 9.63738 9.3846 9.42038 9.6006C9.20338 9.8176 9.30136 9.9936 9.30136 12.2476C9.30136 14.5006 12.0004 15.3166 12.0004 15.3166Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M3 11.988C3.009 7.01501 7.03197 3 12.004 3C13.783 3 15.441 3.51899 16.83 4.40799",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M20.9998 11.9961C20.9998 16.9691 16.9767 21.0001 12.0037 21.0001C10.2257 21.0001 8.56773 20.4821 7.17773 19.5931",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    })]
+                }),
+                description: "Leverage split-execution architecture. Process sensitive local workloads securely. Tap into the world’s largest network of tokenized GPUs.",
+                href: n.cI
+            }, {
+                title: "Cross-Platform Scalability",
+                icon: e => (0, a.jsxs)("svg", {
+                    ...e,
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [(0, a.jsx)("path", {
+                        d: "M8.50781 5.75009C8.50781 4.50747 9.51517 3.50012 10.7578 3.50012H13.2634C14.506 3.50012 15.5134 4.50747 15.5134 5.75009C15.5134 6.99272 14.506 8.00007 13.2634 8.00007H10.7578C9.51517 8.00007 8.50781 6.99272 8.50781 5.75009Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M3 18.2499C3 17.0073 4.00734 16 5.24997 16H7.75558C8.9982 16 10.0055 17.0073 10.0055 18.2499C10.0055 19.4925 8.9982 20.4999 7.75558 20.4999H5.24997C4.00734 20.4999 3 19.4925 3 18.2499Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M14 18.25C14 17.0074 15.0073 16.0001 16.25 16.0001H18.7556C19.9982 16.0001 21.0055 17.0074 21.0055 18.25C21.0055 19.4926 19.9982 20.5 18.7556 20.5H16.25C15.0073 20.5 14 19.4926 14 18.25Z",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round"
+                    }), (0, a.jsx)("path", {
+                        d: "M12 8.00012V10.0002M12 10.0002C12 11.1047 12.8954 12.0002 14 12.0002H15.5C16.6045 12.0002 17.5 12.8956 17.5 14.0002V16.0002M12 10.0002C12 11.1047 11.1045 12.0002 10 12.0002H8.5C7.39543 12.0002 6.5 12.8956 6.5 14.0002V16.0002",
+                        stroke: "white",
+                        "stroke-width": "1.5",
+                        "stroke-linecap": "round"
+                    })]
+                }),
+                description: "Access IO Intelligence anywhere. Native desktop and mobile apps. Seamlessly integrate with DeFi agents, enterprise LLM tooling, or real-time ML apps.",
+                href: n.cI
+            }];
+            var v = {
+                    src: "/_next/static/media/Benchmark-union.68e9f2af.svg",
+                    height: 684,
+                    width: 1440,
+                    blurWidth: 0,
+                    blurHeight: 0
+                },
+                j = s(69063),
+                N = s.n(j);
+            let L = [{
+                value: "deepseek",
+                logo: {
+                    src: "/_next/static/media/deeepseeeek.42a47bff.svg",
+                    height: 32,
+                    width: 113,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "Anthropic",
+                logo: {
+                    src: "/_next/static/media/Anthropic_Logo_0.e1b4c215.svg",
+                    height: 32,
+                    width: 161,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "databricks",
+                logo: {
+                    src: "/_next/static/media/databricks.7d20fc3f.svg",
+                    height: 32,
+                    width: 158,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "google",
+                logo: {
+                    src: "/_next/static/media/google.66b30c88.svg",
+                    height: 32,
+                    width: 72,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "meta",
+                logo: {
+                    src: "/_next/static/media/meta.e911b50c.svg",
+                    height: 32,
+                    width: 110,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "microsoft",
+                logo: {
+                    src: "/_next/static/media/microsoft.be8b4cbc.svg",
+                    height: 32,
+                    width: 114,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "mistral",
+                logo: {
+                    src: "/_next/static/media/mistral.317d4b14.svg",
+                    height: 32,
+                    width: 98,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }, {
+                value: "openai",
+                logo: {
+                    src: "/_next/static/media/openai.a0138e08.svg",
+                    height: 32,
+                    width: 88,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            }];
+            var y = () => (0, a.jsxs)("div", {
+                    className: "relative -m-6 flex w-full flex-col items-center justify-center gap-12 pb-[112px] pt-[97px] md:gap-[62px] md:pt-[179px]",
+                    children: [(0, a.jsx)(r.default, {
+                        src: v,
+                        alt: "background",
+                        className: "pointer-events-none absolute top-[145px] max-md:scale-[3.3] md:top-[-45px]"
+                    }), (0, a.jsxs)("div", {
+                        className: "flex max-w-[670px] flex-col items-center gap-4 lg:gap-6",
+                        children: [(0, a.jsxs)("h2", {
+                            className: "text-center text-4xl font-medium leading-10 md:text-[48px] md:leading-[56px]",
+                            children: ["IO Intelligence ", (0, a.jsx)("br", {
+                                className: "md:hidden"
+                            }), " Leads ", (0, a.jsx)("br", {
+                                className: "max-md:hidden"
+                            }), " the AI", " ", (0, a.jsx)("br", {
+                                className: "md:hidden"
+                            }), " Developer Space"]
+                        }), (0, a.jsxs)("p", {
+                            className: "text-center text-base font-normal leading-6 text-[#737373]",
+                            children: ["Benchmarked for speed, scalability, and cost ", (0, a.jsx)("br", {
+                                className: "md:hidden"
+                            }), " efficiency. Outperforming centralized ", (0, a.jsx)("br", {
+                                className: "md:hidden"
+                            }), "platforms. Deploy AI applications up to 40% ", (0, a.jsx)("br", {
+                                className: "md:hidden"
+                            }), " faster and 90% cheaper."]
+                        })]
+                    }), (0, a.jsx)("div", {
+                        className: "relative max-w-[574px]",
+                        children: (0, a.jsx)(N(), {
+                            width: "200px",
+                            duration: 40,
+                            blurBorders: !0,
+                            blurBoderColor: "#000000",
+                            children: L.map((e, t) => {
+                                let {
+                                    value: s,
+                                    logo: i
+                                } = e;
+                                return (0, a.jsx)(N().Slide, {
+                                    children: (0, a.jsx)(r.default, {
+                                        src: i,
+                                        alt: s,
+                                        height: 32
+                                    })
+                                }, t)
+                            })
+                        })
+                    })]
+                }),
+                M = {
+                    src: "/_next/static/media/faq-bg.920b5fee.png",
+                    height: 2764,
+                    width: 5760,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAElBMVEVMaXEAAAD///////8AAAAfHx9CfXPzAAAABnRSTlMAEAElY5rWdjFDAAAACXBIWXMAACxLAAAsSwGlPZapAAAAIklEQVR4nB3IwQ0AAAjCwAKy/8pG+7oUwOYyCU+1+qUZwQICUgAlPd2l4wAAAABJRU5ErkJggg==",
+                    blurWidth: 8,
+                    blurHeight: 4
+                },
+                E = {
+                    src: "/_next/static/media/faq-bg.cb13280e.png",
+                    height: 1576,
+                    width: 1500,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVLVmAAAACex+YCAgMAAAABAQEAAAAAAAD6+/0Yc5zN0tX///9sbG1bbmLwAAAADXRSTlMB4QhfcO3LR2sPM5yhyYqLoQAAAAlwSFlzAAAsSwAALEsBpT2WqQAAADVJREFUeJxNyTcOACAMBMFzOhP8//ciIwq2GmmBL9WHMZo6195rKtK8yixBuRGUiAhhL3e3PBlyAORAoQrtAAAAAElFTkSuQmCC",
+                    blurWidth: 8,
+                    blurHeight: 8
+                },
+                I = s(55857),
+                S = s(59676),
+                B = () => (0, a.jsx)(l.T, {
+                    children: (0, a.jsxs)("div", {
+                        className: "relative flex w-full flex-col items-center pt-[223px] md:pt-[461px]",
+                        children: [(0, a.jsx)(r.default, {
+                            src: M,
+                            alt: "background",
+                            className: "pointer-events-none absolute top-16 z-[-1] scale-[1.3] max-md:hidden"
+                        }), (0, a.jsx)(r.default, {
+                            src: E,
+                            alt: "background",
+                            className: "pointer-events-none absolute -top-8 z-[-1] scale-[0.9] md:hidden"
+                        }), (0, a.jsx)(S.U, {
+                            device: "desktop",
+                            src: "/riv/iointeligence.riv",
+                            width: 1440,
+                            height: 1280,
+                            className: "content-shadows absolute z-[-1] h-[1316px] w-[1550px] object-contain max-md:hidden xl:mt-[-500px]"
+                        }), (0, a.jsxs)("div", {
+                            className: "flex max-w-[670px] flex-col items-center gap-4",
+                            children: [(0, a.jsxs)("h2", {
+                                className: "text-center text-4xl font-medium leading-10 md:text-[48px] md:leading-[56px]",
+                                children: ["Frequently Asked ", (0, a.jsx)("br", {}), " Questions"]
+                            }), (0, a.jsxs)("p", {
+                                className: "mb-2 text-center text-base font-normal leading-6 text-[#737373]",
+                                children: ["Quick answers to questions you may have. ", (0, a.jsx)("br", {
+                                    className: "md:hidden"
+                                }), " Can't find what you're ", (0, a.jsx)("br", {
+                                    className: "max-md:hidden"
+                                }), " looking for? Check out our documentation"]
+                            }), (0, a.jsxs)(f.default, {
+                                className: (0, A.cn)((0, c.d)({
+                                    variant: "default"
+                                }), "group relative w-fit gap-2 rounded-full bg-white pr-[16px] leading-5 transition-all"),
+                                onClick: () => {
+                                    (0, m.L)(h.n.IO_DOCS_CLICKED)
+                                },
+                                href: n.cI,
+                                children: [(0, a.jsx)(I.Z, {}), "Documentation"]
+                            })]
+                        }), (0, a.jsx)("div", {
+                            className: "mt-[3.2rem] grid grid-cols-2 gap-x-28 gap-y-[2.5rem] max-md:grid-cols-1 max-sm:max-w-[343px] md:mt-20 md:gap-y-16",
+                            children: D.map(e => (0, a.jsxs)("div", {
+                                className: "flex max-w-[413px] flex-col gap-3",
+                                children: [(0, a.jsx)("h3", {
+                                    style: {
+                                        lineHeight: "28px"
+                                    },
+                                    className: "text-base font-medium leading-6 md:text-lg md:leading-7",
+                                    dangerouslySetInnerHTML: {
+                                        __html: e.question
+                                    }
+                                }), (0, a.jsx)("p", {
+                                    style: {
+                                        lineHeight: "24px"
+                                    },
+                                    className: "text-base font-normal leading-6 text-[#737373]",
+                                    dangerouslySetInnerHTML: {
+                                        __html: e.answer
+                                    }
+                                })]
+                            }))
+                        })]
+                    })
+                });
+            let D = [{
+                question: "Is IO Intelligence free?",
+                answer: "Every user receives usage credits for every model free of charge. No credit card required."
+            }, {
+                question: "What AI models does IO Intelligence support?",
+                answer: "We support a wide variety of the latest models from Google, Microsoft, Alibaba, Mistral, DeepSeek, and other premier frontier AI labs."
+            }, {
+                question: "Can IO Intelligence support my business use case?",
+                answer: "Yes! Please reach out to our team via the contact button or by sending a message to <a href='mailto:support@io.net' target='_blank' class='text-white underline'>support@io.net</a> with your specific business needs."
+            }, {
+                question: "Can I integrate IO Intelligence with <br /> my existing stack?",
+                answer: "Yes. SDKs for any OpenAI compatible API client are fully supported as well as the IO Agents Framework package published at <a href='https://github.com/ionet-official/iointel' target='_blank' class='text-white underline'>here</a>."
+            }];
+            var _ = () => (0, a.jsxs)("div", {
+                    className: "relative pb-12 pt-[265px]",
+                    children: [(0, a.jsx)("video", {
+                        src: "/RAG.mp4",
+                        autoPlay: !0,
+                        loop: !0,
+                        muted: !0,
+                        playsInline: !0,
+                        className: "absolute -top-[-4.1rem] z-[-1] w-full scale-[2.3] md:-top-[-1.1rem] md:scale-[1.9]"
+                    }), (0, a.jsxs)("div", {
+                        className: "relative flex max-w-[782px] flex-col items-center gap-4",
+                        children: [(0, a.jsx)("h2", {
+                            className: "text-center text-3xl font-medium leading-10 md:text-[48px] md:leading-[56px]",
+                            children: "Build with IO intelligence"
+                        }), (0, a.jsxs)("p", {
+                            className: "text-center text-base font-normal leading-6 text-[#737373] max-md:max-w-[343px] md:mb-2",
+                            children: ["Competitive rates and the latest models. ", (0, a.jsx)("br", {
+                                className: "max-md:hidden"
+                            }), " Secure and performant."]
+                        }), (0, a.jsx)(i.StartButton, {
+                            trackingEvent: {
+                                trackingType: h.n.INTEL_GET_STARTED_CLICKED
+                            },
+                            url: n.Dk,
+                            mt: "mt-0",
+                            inverted: !0,
+                            className: "rounded-full"
+                        })]
+                    })]
+                }),
+                H = () => (0, a.jsxs)("div", {
+                    className: "flex flex-col items-center",
+                    children: [(0, a.jsx)(g, {}), (0, a.jsx)(C, {}), (0, a.jsx)(y, {}), (0, a.jsx)(B, {}), (0, a.jsx)(_, {})]
+                })
+        },
+        59676: function (e, t, s) {
+            "use strict";
+            s.d(t, {
+                U: function () {
+                    return c
+                }
+            });
+            var a = s(57437),
+                i = s(2265),
+                l = s(66648),
+                n = s(49354),
+                r = s(7544);
+            let o = e => {
+                let {
+                    src: t,
+                    width: s,
+                    height: l,
+                    className: n = "",
+                    ...o
+                } = e, {
+                    RiveComponent: d
+                } = (0, r.useRive)({
+                    src: t,
+                    stateMachines: "State Machine 1",
+                    autoplay: !0
+                }, {
+                    useDevicePixelRatio: !0,
+                    customDevicePixelRatio: 1
+                }), c = (0, i.useMemo)(() => ({
+                    ...s ? {
+                        width: "".concat(s, "px")
+                    } : {},
+                    ...l ? {
+                        height: "".concat(l, "px")
+                    } : {}
+                }), [s, l]);
+                return (0, a.jsx)(d, {
+                    width: s,
+                    height: l,
+                    style: c,
+                    className: n,
+                    ...o
+                })
+            };
+            var d = s(99223);
+            let c = e => {
+                let {
+                    id: t,
+                    src: s,
+                    width: r,
+                    height: c,
+                    allow: A = "autoplay",
+                    responsive: h,
+                    className: m = "",
+                    device: u,
+                    animateOnAllDevices: x = !1,
+                    onClick: g
+                } = e, p = (0, d.F)(), f = (0, i.useRef)(null), [w, b] = (0, i.useState)(null), C = "https://rive.app/s/".concat(t, "/embed");
+                return (0, i.useEffect)(() => {
+                    let {
+                        image: e,
+                        ...i
+                    } = (null == h ? void 0 : h[u || p]) || {};
+                    if (!x && (e || "desktop" !== (u || p))) {
+                        if (!e) {
+                            b(null);
+                            return
+                        }
+                        b((0, a.jsx)(l.default, {
+                            src: e,
+                            alt: t || s,
+                            className: m,
+                            ...i,
+                            onClick: g
+                        }));
+                        return
+                    }
+                    if (s) {
+                        b((0, a.jsx)(o, {
+                            src: s,
+                            width: r,
+                            height: c,
+                            className: m,
+                            onClick: g
+                        }));
+                        return
+                    }
+                    console.log("Swap iframe rive animation to canvas embed for improved performance- ".concat(C)), b((0, a.jsx)("iframe", {
+                        ref: f,
+                        className: (0, n.cn)("border-0", m),
+                        width: r,
+                        height: c,
+                        src: C,
+                        allowFullScreen: !0,
+                        allow: A,
+                        ...i
+                    }))
+                }, [h, t, s, r, c, m, A, C, f, u, x, g, p]), w
+            }
+        },
+        55857: function (e, t, s) {
+            "use strict";
+            var a = s(57437);
+            s(2265), t.Z = () => (0, a.jsxs)("svg", {
+                width: "21",
+                height: "20",
+                viewBox: "0 0 21 20",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [(0, a.jsx)("path", {
+                    d: "M16.1415 8.58191V7.49866C16.1415 7.0584 15.9712 6.63434 15.6656 6.3157L12.5058 3.02462C12.1839 2.68895 11.7388 2.50003 11.2742 2.50003H6.56421C4.86394 2.49273 3.47097 3.84759 3.43043 5.54705V14.303C3.39313 16.03 4.76178 17.4611 6.48881 17.4992C6.51394 17.4992 9.8245 17.5 9.8245 17.5",
+                    stroke: "#0A0A0A",
+                    strokeWidth: "1.25",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }), (0, a.jsx)("path", {
+                    d: "M11.6758 2.55225V4.96278C11.6749 6.13926 12.6277 7.09359 13.8042 7.09602H16.0866",
+                    stroke: "#0A0A0A",
+                    strokeWidth: "1.25",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }), (0, a.jsx)("path", {
+                    d: "M10.9569 11.7573H7.01642M9.07262 8.31689H7.01562",
+                    stroke: "#0A0A0A",
+                    strokeWidth: "1.25",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }), (0, a.jsx)("path", {
+                    d: "M15.0308 11.7651C15.2739 11.344 15.8124 11.1997 16.2335 11.4428L16.8828 11.8177C17.3039 12.0608 17.4483 12.5993 17.2051 13.0204L15.1817 16.525C14.9875 16.8613 14.6778 17.1156 14.3101 17.2404L13.769 17.4241C13.4027 17.5485 13.0106 17.3221 12.9351 16.9427L12.8237 16.3822C12.748 16.0014 12.8133 15.606 13.0074 15.2697L15.0308 11.7651Z",
+                    stroke: "#0A0A0A",
+                    strokeWidth: "1.25",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                })]
+            })
+        },
+        99223: function (e, t, s) {
+            "use strict";
+            s.d(t, {
+                F: function () {
+                    return r
+                }
+            });
+            var a = s(2265),
+                i = s(762),
+                l = s(22916);
+
+            function n(e) {
+                let t = (0, l.ac)({
+                        query: "(min-width: ".concat(i.AV[e], ")")
+                    }),
+                    s = e[0].toUpperCase() + e.substring(1);
+                return {
+                    ["is".concat(s)]: t
+                }
+            }
+            let r = () => {
+                let {
+                    isMd: e
+                } = n("md"), {
+                    isXl: t
+                } = n("xl");
+                return (0, a.useMemo)(() => e ? t ? "desktop" : "tablet" : "phone", [e, t])
+            }
+        },
+        762: function (e, t, s) {
+            "use strict";
+            s.d(t, {
+                AV: function () {
+                    return a
+                },
+                C3: function () {
+                    return r
+                },
+                J_: function () {
+                    return n
+                },
+                Ss: function () {
+                    return i
+                },
+                _Q: function () {
+                    return l
+                }
+            });
+            let a = {
+                    sm: "640px",
+                    md: "768px",
+                    lg: "1024px",
+                    xl: "1280px",
+                    "2xl": "1374px"
+                },
+                i = e => {
+                    if ("string" != typeof e) return null;
+                    let [t, s, a] = e.split("/").map(Number);
+                    return t && s && a ? new Date(a, s - 1, t) : null
+                },
+                l = (e, t) => {
+                    let s = new Intl.DateTimeFormat("en-US", {
+                            month: "short",
+                            day: "numeric",
+                            year: "numeric"
+                        }),
+                        a = i(e),
+                        l = i(t);
+                    return a || l ? a && !l ? s.format(a) : !a && l ? s.format(l) : "".concat(s.format(a), " - ").concat(s.format(l)) : "TBD"
+                },
+                n = e => e instanceof Date,
+                r = e => {
+                    if (console.log(e), "string" == typeof e) return e.includes("://") ? e : "https://".concat(e)
+                }
+        }
+    },
+    function (e) {
+        e.O(0, [4370, 8173, 4868, 1374, 231, 4514, 7287, 9636, 5817, 1131, 5827, 5373, 9231, 2097, 2971, 5318, 1744], function () {
+            return e(e.s = 53725)
+        }), _N_E = e.O()
+    }
+]);
