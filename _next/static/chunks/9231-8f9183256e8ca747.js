@@ -747,12 +747,6 @@
                         })]
                     })
                 }, {
-                    label: "IO Ventures",
-                    href: "https://io.ventures",
-                    target: "_blank",
-                    description: "VC For ML Startups",
-                    icon: c
-                }, {
                     label: "Contact Us",
                     href: C.Z.CONTACT_US_TYPEFORM_URL,
                     description: "We'd love to hear from you!",
