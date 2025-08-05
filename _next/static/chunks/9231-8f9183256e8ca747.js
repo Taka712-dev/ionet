@@ -811,7 +811,7 @@
                     value: "twitter",
                     label: "X",
                     iconName: "twitter",
-                    href: "https://x.com/ionetwork_eth"
+                    href: "https://x.com/ionetwork_ethwork_eth"
                 }, {
                     value: "discord",
                     label: "Discord",
