@@ -672,7 +672,7 @@
             var d = s(65461),
                 f = s(49354);
             let y = "https://explorer.ionetwork.cloud",
-                x = "https://worker.".concat(C.Z.PRODUCT_DOMAIN, "/worker/devices"),
+                x = "/",
                 u = "https://docs.io.net/reference/get-started-with-io-intelligence-api",
                 h = "https://docs.io.net/docs/deploy-cluster",
                 _ = [{
