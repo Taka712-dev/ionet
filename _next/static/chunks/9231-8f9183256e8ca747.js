@@ -811,7 +811,7 @@
                     value: "twitter",
                     label: "X",
                     iconName: "twitter",
-                    href: "https://x.com/ionet"
+                    href: "https://x.com/ionetwork_eth"
                 }, {
                     value: "discord",
                     label: "Discord",
@@ -821,7 +821,7 @@
                     value: "telegram",
                     label: "Telegram",
                     iconName: "telegram",
-                    href: "https://t.me/io_net"
+                    href: "https://t.me/ionetwork_eth"
                 }, {
                     value: "linkedin",
                     label: "LinkedIn",
