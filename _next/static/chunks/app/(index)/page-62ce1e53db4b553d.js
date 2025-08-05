@@ -337,7 +337,7 @@
                         })]
                     }),
                     title: "Reliable & Fast",
-                    description: "Enterprise-grade performance with proven uptime across global infrastructure. io.cloud streamlines deployment, eliminating infrastructure bottlenecks."
+                    description: "Enterprise-grade performance with proven uptime across global infrastructure. IO Cloud streamlines deployment, eliminating infrastructure bottlenecks."
                 }, {
                     icon: e => (0, s.jsxs)("svg", {
                         xmlns: "http://www.w3.org/2000/svg",
@@ -496,14 +496,8 @@
                                 url: i
                             } = e;
                             return (0, s.jsxs)("a", {
-                                target: "_blank",
-                                href: "https://cloud.".concat(p.Z.PRODUCT_DOMAIN, "/cloud/").concat(i),
-                                onClick: () => {
-                                    (0, h.L)(x.n.TRY_IT_NOW_CLICKED, {
-                                        type: l
-                                    })
-                                },
-                                "aria-description": "Try ".concat(l, " on io.cloud"),
+                                href: "",
+                                "aria-description": "Try ".concat(l, " on IO Cloud"),
                                 className: "group relative flex h-[343px] w-[343px] flex-shrink-0 cursor-pointer flex-col overflow-hidden border border-[#262626] pt-4 text-left lg:w-[325px] xl:h-[550px] xl:w-[384px] xl:pt-6",
                                 children: [(0, s.jsxs)("div", {
                                     className: "ml-4 flex w-fit items-center gap-[6px] rounded-md border border-[#262626] p-1 pr-2 text-[#737373] xl:ml-6",
@@ -529,14 +523,6 @@
                                     alt: l,
                                     fill: !0,
                                     className: "absolute bottom-0 object-cover max-xl:hidden"
-                                }), (0, s.jsxs)("div", {
-                                    className: "absolute bottom-[-100px] flex w-full items-center justify-center gap-1 rounded-none bg-white px-4 py-[10px] text-grey-1500 transition-all duration-200 ease-in-out group-hover:bottom-0",
-                                    children: [(0, s.jsx)("div", {
-                                        className: "text-sm font-normal leading-5 text-grey-1500",
-                                        children: "Try It Today"
-                                    }), (0, s.jsx)(o.L, {
-                                        className: "h-4 w-4"
-                                    })]
                                 })]
                             }, l)
                         })
@@ -571,7 +557,7 @@
                                 children: ["Powering a vast network of GPUs seamlessly connected across", (0, s.jsx)("br", {}), "130+ countries — delivering unmatched scalability, speed, and performance"]
                             }), (0, s.jsx)(g.StartButton, {
                                 className: "!mt-0 pr-4 max-lg:hidden",
-                                title: "Try io.cloud",
+                                title: "Try IO Cloud",
                                 trackingEvent: {
                                     trackingType: x.n.GET_STARTED_CLICKED
                                 },
@@ -618,7 +604,7 @@
                             className: "flex w-[100vw] items-start justify-center px-4 md:w-fit lg:hidden",
                             children: (0, s.jsx)(g.StartButton, {
                                 className: "!mt-0 w-full pr-4",
-                                title: "Try io.cloud",
+                                title: "Try IO Cloud",
                                 trackingEvent: {
                                     trackingType: x.n.GET_STARTED_CLICKED
                                 },
@@ -1008,7 +994,7 @@
                             })
                         }), (0, s.jsx)("p", {
                             className: "px-4 text-left text-base font-normal leading-[150%] text-grey-500 lg:w-full lg:text-center xl:max-w-[486px] xl:px-0",
-                            children: "100x H100 GPUs on AWS cost ~$300K/month. On io.cloud, the same cost ~30K/month = $270k monthly savings"
+                            children: "100x H100 GPUs on AWS cost ~$300K/month. On IO Cloud, the same cost ~30K/month = $270k monthly savings"
                         })]
                     })]
                 });
@@ -1158,7 +1144,7 @@
                                 })]
                             }), (0, s.jsx)("p", {
                                 className: "font-inter text-[16px] font-normal text-white/50",
-                                children: "Powering Decentralized AI on io.net"
+                                children: "Powering Decentralized AI on IO Network "
                             }), (0, s.jsx)(g.StartButton, {
                                 trackingEvent: {
                                     banner_type: "side",

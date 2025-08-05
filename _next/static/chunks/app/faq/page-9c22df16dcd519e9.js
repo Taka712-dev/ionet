@@ -1,1 +1,381 @@
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},t=Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="8e992deb-ec0e-4755-90e8-31b37647a31b",e._sentryDebugIdIdentifier="sentry-dbid-8e992deb-ec0e-4755-90e8-31b37647a31b")}catch(e){}}(),(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[799],{16648:function(e,t,n){Promise.resolve().then(n.bind(n,34475))},34475:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return u}});var a=n(57437),i=n(66648),r=n(2265),s=n(89733);let o=e=>(0,a.jsxs)("svg",{viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e,children:[(0,a.jsx)("path",{d:"M3.33301 12V14.5107L4.34301 13.9047L7.51767 12H10.6663C11.4017 12 11.9997 11.402 11.9997 10.6667V5.33333C11.9997 4.598 11.4017 4 10.6663 4H2.66634C1.93101 4 1.33301 4.598 1.33301 5.33333V10.6667C1.33301 11.402 1.93101 12 2.66634 12H3.33301ZM2.66634 5.33333H10.6663V10.6667H7.14834L4.66634 12.156V10.6667H2.66634V5.33333Z",fill:"white"}),(0,a.jsx)("path",{d:"M13.3333 1.33301H5.33333C4.598 1.33301 4 1.93101 4 2.66634H12C12.7353 2.66634 13.3333 3.26434 13.3333 3.99967V9.33301C14.0687 9.33301 14.6667 8.73501 14.6667 7.99967V2.66634C14.6667 1.93101 14.0687 1.33301 13.3333 1.33301Z",fill:"white"})]});var l=n(35265);let d=e=>{let{openedTab:t,changeTab:n,tabName:i,openedQuestion:s,questions:o,nextTab:d}=e,c=(0,r.useRef)(null);return(0,a.jsxs)("div",{className:t===i?"relative max-h-[500px] overflow-hidden border-grey-200 py-[24px] transition-all duration-700 max-sm:py-[18px] ".concat("Payment & Billing"!==i?"border-b":""):"relative max-h-[80px] overflow-hidden border-grey-200 py-[24px] transition-all duration-700 max-sm:max-h-[68px] ".concat("Payment & Billing"!==i?"border-b":""," max-sm:py-[18px]"),children:[(0,a.jsxs)("div",{className:"relative flex items-center gap-7 hover:cursor-pointer",onClick:()=>{n(i)},children:[(0,a.jsx)("div",{className:"relative h-[2px] w-[14px] bg-grey-1200",children:(0,a.jsx)("div",{className:t===i?"absolute left-[50%] top-[50%] h-[14px] w-[2px] translate-x-[-50%] translate-y-[-50%] rotate-90 bg-grey-1200 transition-transform":"absolute left-[50%] top-[50%] h-[14px] w-[2px] translate-x-[-50%] translate-y-[-50%] rotate-0 bg-grey-1200 transition-transform"})}),(0,a.jsx)("p",{className:"text-lg2/[31px] font-medium tracking-[-1px] text-white max-sm:text-lg",children:i})]}),(0,a.jsx)("div",{className:"relative mt-[20px] max-sm:mt-[10px]",children:(0,a.jsx)(l.UQ,{type:"single",collapsible:!0,className:"w-full",defaultValue:s,children:o.map((e,n)=>{let{title:r,desc:s}=e,d=n===o.length-1;return(0,a.jsxs)(l.Qd,{ref:d?c:null,value:r,className:"relative ml-[7px] border-b-0 border-l py-[6px] pl-[52px] transition-colors max-sm:ml-[10px] max-sm:pl-[16px] ".concat(t!==i?"border-grey-200/0":"border-grey-200/0 data-[state=open]:border-grey-200/100"),children:[(0,a.jsx)(l.o4,{className:"relative text-left text-md font-normal capitalize leading-[120%] tracking-[-0.5px] text-white max-sm:text-base max-sm:leading-[160%]",children:(0,a.jsx)("span",{className:"relative pr-[16px] max-sm:top-[5px]",children:r})}),(0,a.jsx)(l.vF,{children:(0,a.jsx)("span",{className:"text-left text-sm font-normal leading-[160%] text-grey-1300 max-sm:mt-[-5px] max-sm:text-xs/[22px]",dangerouslySetInnerHTML:{__html:s}})}),n+1!==o.length?(0,a.jsx)("div",{className:"absolute bottom-[0px] left-[52px] h-[1px] w-[100%] bg-grey-200 max-sm:left-[16px]"}):null]},r)})})})]})};var c={src:"/_next/static/media/bg.06299949.png",height:431,width:1154,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAABlBMVEVMaXH///+a4ocPAAAAAnRSTlMAAQGU/a4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAPSURBVHicY2CAA0YEEwwAACsAAu2Sz1YAAAAASUVORK5CYII=",blurWidth:8,blurHeight:3},m=n(83981);function u(){let[e,t]=(0,r.useState)("General"),[n]=(0,r.useState)("What is io.net mission, and what are you working towards?"),l=n=>{e===n?t(""):t(n)};return(0,a.jsxs)("div",{className:"relative flex w-[100%] flex-col",children:[(0,a.jsxs)("div",{className:"relative mx-auto mt-[170px] max-w-[1200px] px-[16px] max-md:mt-[100px]",children:[(0,a.jsxs)("h1",{className:"mx-auto max-w-[550px] text-center text-8xl/[64px] font-bold leading-[120%] tracking-[-2px] text-white max-md:text-5xl/[43px]",children:["Frequently",(0,a.jsx)("br",{}),"Asked Questions"]}),(0,a.jsxs)("p",{className:"mx-auto mt-[16px] max-w-[700px] text-center text-md/[25px] font-normal leading-[140%] text-white max-md:text-sm",children:["These are the most commonly asked questions.",(0,a.jsx)("br",{}),"Can’t find what you’re looking for?"]}),(0,a.jsx)("div",{className:"relative mt-[24px] flex justify-center",children:(0,a.jsx)(s.z,{className:"gap-2",variant:"chat",children:(0,a.jsxs)("a",{href:m.Z.SUPPORT_URL,target:"_blank",className:"flex items-center gap-2",children:[(0,a.jsx)(o,{className:"h-[16px]"}),(0,a.jsx)("span",{children:"Chat to Our Team!"})]})})}),(0,a.jsx)(i.default,{src:c,alt:"background",className:"pointer-events-none absolute left-[50%] top-[40%] z-[-10] min-w-[1154px] translate-x-[-50%] translate-y-[-50%] max-md:top-[50%] max-md:min-w-[900px]"})]}),(0,a.jsxs)("div",{className:"relative mx-auto mt-[90px] w-[100%] max-w-[845px] px-[16px] max-md:mt-[64px]",children:[(0,a.jsx)(d,{openedTab:e,changeTab:l,openedQuestion:n,tabName:"General",questions:x,nextTab:"Cloud 2.0"}),(0,a.jsx)(d,{openedTab:e,changeTab:l,openedQuestion:n,tabName:"Cloud 2.0",questions:p,nextTab:"Data & Security"}),(0,a.jsx)(d,{openedTab:e,changeTab:l,openedQuestion:n,tabName:"Data & Security",questions:h,nextTab:"Payment & Billing"}),(0,a.jsx)(d,{openedTab:e,changeTab:l,openedQuestion:n,tabName:"Payment & Billing",questions:f})]})]})}let x=[{title:"What is io.net mission, and what are you working towards?",desc:"io.net is a decentralized GPU network designed to give unlimited computing power to ML applications. We make computing more scalable, accessible, and efficient. Our mission is to unlock fair access to computing power by assembling 1 million + GPUs from independent data centers, crypto miners, and crypto projects such as Filecoin or Render."},{title:"How is io.net different from AWS?",desc:"io.net offers a fundamentally different approach to cloud computing, leveraging a distributed and decentralized model, which can provide more control and flexibility to users, our services are permissionless and cost efficient. The combination of all these factors sets io.net in its own league of Decentralized providers."},{title:"What is a DePIN and how does io.net fit?",desc:"DePIN, or Decentralized Physical Infrastructure Networks, leverages blockchains, IoT and the greater Web3 ecosystem to create, operate and maintain real-world physical infrastructure. These networks leverage token incentives to coordinate, reward and safeguard members of the network. io.net is the first and only GPU DePIN. We are optimized for machine learning but suitable for all GPU use cases as we connect computing power providers with users to offer accessibility and profit for everyone involved."}],p=[{title:"What's the maximum number of GPUs allowed in a single cluster?",desc:"There is no set maximum number of GPUs in a single cluster; it depends on the available supply."},{title:"How long does it take to create a cluster of GPUs?",desc:"Creating a Cluster with io.net takes less than 90 seconds."},{title:"Is it possible to adjust the number of GPUs in my cluster as my requirements change?",desc:"Yes it is possible to adjust the number of GPUs either with Auto Scaling or manually adding nodes to your cluster. This feature will be available in our next update."},{title:"What is the minimum and maximum duration for GPU cluster rentals?",desc:"The GPU cluster can be reserved for a minimum of one hour, and there is no maximum limit on the duration."}],h=[{title:"How do you preserve data privacy and security?",desc:"Our io agent ensures that unauthorized containers are not running on a hired GPU to eliminate any risks. When a node is hired, the data existing between one worker node and the other worker node is encrypted in the docker file system. Any network traffic is also on a mesh VPN, which ensures maximum security. We also prioritize suppliers with SOC2 compliance and continue to stress the importance of SOC2 compliance with our suppliers."},{title:"Is my personal information shared with third parties or advertisers?",desc:"Our company maintains a strong commitment to data privacy and does not share any information with third parties or advertisers."}],f=[{title:"Which payment methods do you accept?",desc:"We accept a variety of payment methods, including all major credit cards such as Visa and MasterCard. Additionally, we also accept cryptocurrency payments in IO$ and USDC via Solana Pay."},{title:"How does the pricing and billing system work?",desc:"The pricing and billing system functions on an hourly on-demand basis, and you will be billed at the final step of your cluster booking. It's worth noting that the prices are base prices and may be subject to change depending on your preferences."},{title:"Do you offer discounts for long-term commitments ?",desc:'Yes, we provide discounts for extended commitments. We offer discounts ranging from 5% to 20% discount depending on the length of your booking. If you\'re considering renting for a period longer than a week, please reach out to our sales or support team on the following  emails: <a href="mailto:partners@io.net">partners@io.net</a>, <a href="mailto:support@io.net">support@io.net</a>'}]},14507:function(e,t,n){"use strict";n.d(t,{v:function(){return i}});var a=n(57437);let i=e=>(0,a.jsx)("svg",{width:16,height:16,...e,viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:(0,a.jsx)("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M3.64645 5.64645C3.84171 5.45118 4.15829 5.45118 4.35355 5.64645L8 9.29289L11.6464 5.64645C11.8417 5.45118 12.1583 5.45118 12.3536 5.64645C12.5488 5.84171 12.5488 6.15829 12.3536 6.35355L8.35355 10.3536C8.15829 10.5488 7.84171 10.5488 7.64645 10.3536L3.64645 6.35355C3.45118 6.15829 3.45118 5.84171 3.64645 5.64645Z",fill:"white",style:{fill:"white",fillOpacity:1}})})},35265:function(e,t,n){"use strict";n.d(t,{Qd:function(){return d},UQ:function(){return l},o4:function(){return c},vF:function(){return m}});var a=n(57437),i=n(2265),r=n(64756),s=n(14507),o=n(49354);let l=r.fC,d=i.forwardRef((e,t)=>{let{className:n,...i}=e;return(0,a.jsx)(r.ck,{ref:t,className:(0,o.cn)("border-b",n),...i})});d.displayName="AccordionItem";let c=i.forwardRef((e,t)=>{let{className:n,children:i,...l}=e;return(0,a.jsx)(r.h4,{className:"flex",children:(0,a.jsxs)(r.xz,{ref:t,className:(0,o.cn)("flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",n),...l,children:[i,(0,a.jsx)(s.v,{className:"h-6 shrink-0 transition-transform duration-200"})]})})});c.displayName=r.xz.displayName;let m=i.forwardRef((e,t)=>{let{className:n,children:i,...s}=e;return(0,a.jsx)(r.VY,{ref:t,className:"overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",...s,children:(0,a.jsx)("div",{className:(0,o.cn)("pb-4 pt-0",n),children:i})})});m.displayName=r.VY.displayName},89733:function(e,t,n){"use strict";n.d(t,{d:function(){return l},z:function(){return d}});var a=n(57437),i=n(2265),r=n(71538),s=n(12218),o=n(49354);let l=(0,s.j)("inline-flex items-center justify-center whitespace-nowrap rounded-base text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300",{variants:{variant:{default:"bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90",chat:"bg-grey-1100 text-white font-normal rounded-base leading-[160%] border border-white/10 hover:bg-grey-1100/90 buttonChat",destructive:"bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90",outline:"border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",secondary:"bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80",ghost:"hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",link:"text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50"},size:{default:"h-10 px-4 py-2",sm:"h-9 rounded-md px-3",md:"h-[40px] rounded-md px-4",lg:"h-11 rounded-md px-8",icon:"h-10 w-10"}},defaultVariants:{variant:"default",size:"default"}}),d=i.forwardRef((e,t)=>{let{className:n,variant:i,size:s,asChild:d=!1,...c}=e,m=d?r.g7:"button";return(0,a.jsx)(m,{className:(0,o.cn)(l({variant:i,size:s,className:n})),ref:t,...c})});d.displayName="Button"},49354:function(e,t,n){"use strict";n.d(t,{cn:function(){return r}});var a=n(44839),i=n(96164);function r(){for(var e=arguments.length,t=Array(e),n=0;n<e;n++)t[n]=arguments[n];return(0,i.m6)((0,a.W)(t))}}},function(e){e.O(0,[8173,4868,4756,634,2971,5318,1744],function(){return e(e.s=16648)}),_N_E=e.O()}]);
+! function () {
+    try {
+        var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {},
+            t = Error().stack;
+        t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "8e992deb-ec0e-4755-90e8-31b37647a31b", e._sentryDebugIdIdentifier = "sentry-dbid-8e992deb-ec0e-4755-90e8-31b37647a31b")
+    } catch (e) {}
+}(), (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+    [799], {
+        16648: function (e, t, n) {
+            Promise.resolve().then(n.bind(n, 34475))
+        },
+        34475: function (e, t, n) {
+            "use strict";
+            n.r(t), n.d(t, {
+                default: function () {
+                    return u
+                }
+            });
+            var a = n(57437),
+                i = n(66648),
+                r = n(2265),
+                s = n(89733);
+            let o = e => (0, a.jsxs)("svg", {
+                viewBox: "0 0 16 16",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                ...e,
+                children: [(0, a.jsx)("path", {
+                    d: "M3.33301 12V14.5107L4.34301 13.9047L7.51767 12H10.6663C11.4017 12 11.9997 11.402 11.9997 10.6667V5.33333C11.9997 4.598 11.4017 4 10.6663 4H2.66634C1.93101 4 1.33301 4.598 1.33301 5.33333V10.6667C1.33301 11.402 1.93101 12 2.66634 12H3.33301ZM2.66634 5.33333H10.6663V10.6667H7.14834L4.66634 12.156V10.6667H2.66634V5.33333Z",
+                    fill: "white"
+                }), (0, a.jsx)("path", {
+                    d: "M13.3333 1.33301H5.33333C4.598 1.33301 4 1.93101 4 2.66634H12C12.7353 2.66634 13.3333 3.26434 13.3333 3.99967V9.33301C14.0687 9.33301 14.6667 8.73501 14.6667 7.99967V2.66634C14.6667 1.93101 14.0687 1.33301 13.3333 1.33301Z",
+                    fill: "white"
+                })]
+            });
+            var l = n(35265);
+            let d = e => {
+                let {
+                    openedTab: t,
+                    changeTab: n,
+                    tabName: i,
+                    openedQuestion: s,
+                    questions: o,
+                    nextTab: d
+                } = e, c = (0, r.useRef)(null);
+                return (0, a.jsxs)("div", {
+                    className: t === i ? "relative max-h-[500px] overflow-hidden border-grey-200 py-[24px] transition-all duration-700 max-sm:py-[18px] ".concat("Payment & Billing" !== i ? "border-b" : "") : "relative max-h-[80px] overflow-hidden border-grey-200 py-[24px] transition-all duration-700 max-sm:max-h-[68px] ".concat("Payment & Billing" !== i ? "border-b" : "", " max-sm:py-[18px]"),
+                    children: [(0, a.jsxs)("div", {
+                        className: "relative flex items-center gap-7 hover:cursor-pointer",
+                        onClick: () => {
+                            n(i)
+                        },
+                        children: [(0, a.jsx)("div", {
+                            className: "relative h-[2px] w-[14px] bg-grey-1200",
+                            children: (0, a.jsx)("div", {
+                                className: t === i ? "absolute left-[50%] top-[50%] h-[14px] w-[2px] translate-x-[-50%] translate-y-[-50%] rotate-90 bg-grey-1200 transition-transform" : "absolute left-[50%] top-[50%] h-[14px] w-[2px] translate-x-[-50%] translate-y-[-50%] rotate-0 bg-grey-1200 transition-transform"
+                            })
+                        }), (0, a.jsx)("p", {
+                            className: "text-lg2/[31px] font-medium tracking-[-1px] text-white max-sm:text-lg",
+                            children: i
+                        })]
+                    }), (0, a.jsx)("div", {
+                        className: "relative mt-[20px] max-sm:mt-[10px]",
+                        children: (0, a.jsx)(l.UQ, {
+                            type: "single",
+                            collapsible: !0,
+                            className: "w-full",
+                            defaultValue: s,
+                            children: o.map((e, n) => {
+                                let {
+                                    title: r,
+                                    desc: s
+                                } = e, d = n === o.length - 1;
+                                return (0, a.jsxs)(l.Qd, {
+                                    ref: d ? c : null,
+                                    value: r,
+                                    className: "relative ml-[7px] border-b-0 border-l py-[6px] pl-[52px] transition-colors max-sm:ml-[10px] max-sm:pl-[16px] ".concat(t !== i ? "border-grey-200/0" : "border-grey-200/0 data-[state=open]:border-grey-200/100"),
+                                    children: [(0, a.jsx)(l.o4, {
+                                        className: "relative text-left text-md font-normal capitalize leading-[120%] tracking-[-0.5px] text-white max-sm:text-base max-sm:leading-[160%]",
+                                        children: (0, a.jsx)("span", {
+                                            className: "relative pr-[16px] max-sm:top-[5px]",
+                                            children: r
+                                        })
+                                    }), (0, a.jsx)(l.vF, {
+                                        children: (0, a.jsx)("span", {
+                                            className: "text-left text-sm font-normal leading-[160%] text-grey-1300 max-sm:mt-[-5px] max-sm:text-xs/[22px]",
+                                            dangerouslySetInnerHTML: {
+                                                __html: s
+                                            }
+                                        })
+                                    }), n + 1 !== o.length ? (0, a.jsx)("div", {
+                                        className: "absolute bottom-[0px] left-[52px] h-[1px] w-[100%] bg-grey-200 max-sm:left-[16px]"
+                                    }) : null]
+                                }, r)
+                            })
+                        })
+                    })]
+                })
+            };
+            var c = {
+                    src: "/_next/static/media/bg.06299949.png",
+                    height: 431,
+                    width: 1154,
+                    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAABlBMVEVMaXH///+a4ocPAAAAAnRSTlMAAQGU/a4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAPSURBVHicY2CAA0YEEwwAACsAAu2Sz1YAAAAASUVORK5CYII=",
+                    blurWidth: 8,
+                    blurHeight: 3
+                },
+                m = n(83981);
+
+            function u() {
+                let [e, t] = (0, r.useState)("General"), [n] = (0, r.useState)("What is IO Network  mission, and what are you working towards?"), l = n => {
+                    e === n ? t("") : t(n)
+                };
+                return (0, a.jsxs)("div", {
+                    className: "relative flex w-[100%] flex-col",
+                    children: [(0, a.jsxs)("div", {
+                        className: "relative mx-auto mt-[170px] max-w-[1200px] px-[16px] max-md:mt-[100px]",
+                        children: [(0, a.jsxs)("h1", {
+                            className: "mx-auto max-w-[550px] text-center text-8xl/[64px] font-bold leading-[120%] tracking-[-2px] text-white max-md:text-5xl/[43px]",
+                            children: ["Frequently", (0, a.jsx)("br", {}), "Asked Questions"]
+                        }), (0, a.jsxs)("p", {
+                            className: "mx-auto mt-[16px] max-w-[700px] text-center text-md/[25px] font-normal leading-[140%] text-white max-md:text-sm",
+                            children: ["These are the most commonly asked questions.", (0, a.jsx)("br", {}), "Can’t find what you’re looking for?"]
+                        }), (0, a.jsx)(i.default, {
+                            src: c,
+                            alt: "background",
+                            className: "pointer-events-none absolute left-[50%] top-[40%] z-[-10] min-w-[1154px] translate-x-[-50%] translate-y-[-50%] max-md:top-[50%] max-md:min-w-[900px]"
+                        })]
+                    }), (0, a.jsxs)("div", {
+                        className: "relative mx-auto mt-[90px] w-[100%] max-w-[845px] px-[16px] max-md:mt-[64px]",
+                        children: [(0, a.jsx)(d, {
+                            openedTab: e,
+                            changeTab: l,
+                            openedQuestion: n,
+                            tabName: "General",
+                            questions: x,
+                            nextTab: "Cloud 2.0"
+                        }), (0, a.jsx)(d, {
+                            openedTab: e,
+                            changeTab: l,
+                            openedQuestion: n,
+                            tabName: "Cloud 2.0",
+                            questions: p,
+                            nextTab: "Data & Security"
+                        }), (0, a.jsx)(d, {
+                            openedTab: e,
+                            changeTab: l,
+                            openedQuestion: n,
+                            tabName: "Data & Security",
+                            questions: h,
+                            nextTab: "Payment & Billing"
+                        }), (0, a.jsx)(d, {
+                            openedTab: e,
+                            changeTab: l,
+                            openedQuestion: n,
+                            tabName: "Payment & Billing",
+                            questions: f
+                        })]
+                    })]
+                })
+            }
+            let x = [{
+                    title: "What is IO Network  mission, and what are you working towards?",
+                    desc: "IO Network is a decentralized GPU network designed to give unlimited computing power to ML applications. We make computing more scalable, accessible, and efficient. Our mission is to unlock fair access to computing power by assembling 1 million + GPUs from independent data centers, crypto miners, and crypto projects such as Filecoin or Render."
+                }, {
+                    title: "How is IO Network  different from AWS?",
+                    desc: "io.net offers a fundamentally different approach to cloud computing, leveraging a distributed and decentralized model, which can provide more control and flexibility to users, our services are permissionless and cost efficient. The combination of all these factors sets io.net in its own league of Decentralized providers."
+                }, {
+                    title: "What is a DePIN and how does IO Network  fit?",
+                    desc: "DePIN, or Decentralized Physical Infrastructure Networks, leverages blockchains, IoT and the greater Web3 ecosystem to create, operate and maintain real-world physical infrastructure. These networks leverage token incentives to coordinate, reward and safeguard members of the network. io.net is the first and only GPU DePIN. We are optimized for machine learning but suitable for all GPU use cases as we connect computing power providers with users to offer accessibility and profit for everyone involved."
+                }],
+                p = [{
+                    title: "What's the maximum number of GPUs allowed in a single cluster?",
+                    desc: "There is no set maximum number of GPUs in a single cluster; it depends on the available supply."
+                }, {
+                    title: "How long does it take to create a cluster of GPUs?",
+                    desc: "Creating a Cluster with io.net takes less than 90 seconds."
+                }, {
+                    title: "Is it possible to adjust the number of GPUs in my cluster as my requirements change?",
+                    desc: "Yes it is possible to adjust the number of GPUs either with Auto Scaling or manually adding nodes to your cluster. This feature will be available in our next update."
+                }, {
+                    title: "What is the minimum and maximum duration for GPU cluster rentals?",
+                    desc: "The GPU cluster can be reserved for a minimum of one hour, and there is no maximum limit on the duration."
+                }],
+                h = [{
+                    title: "How do you preserve data privacy and security?",
+                    desc: "Our io agent ensures that unauthorized containers are not running on a hired GPU to eliminate any risks. When a node is hired, the data existing between one worker node and the other worker node is encrypted in the docker file system. Any network traffic is also on a mesh VPN, which ensures maximum security. We also prioritize suppliers with SOC2 compliance and continue to stress the importance of SOC2 compliance with our suppliers."
+                }, {
+                    title: "Is my personal information shared with third parties or advertisers?",
+                    desc: "Our company maintains a strong commitment to data privacy and does not share any information with third parties or advertisers."
+                }],
+                f = [{
+                    title: "Which payment methods do you accept?",
+                    desc: "We accept a variety of payment methods, including all major credit cards such as Visa and MasterCard. Additionally, we also accept cryptocurrency payments in IO$ and USDC via Solana Pay."
+                }, {
+                    title: "How does the pricing and billing system work?",
+                    desc: "The pricing and billing system functions on an hourly on-demand basis, and you will be billed at the final step of your cluster booking. It's worth noting that the prices are base prices and may be subject to change depending on your preferences."
+                }, {
+                    title: "Do you offer discounts for long-term commitments ?",
+                    desc: 'Yes, we provide discounts for extended commitments. We offer discounts ranging from 5% to 20% discount depending on the length of your booking. If you\'re considering renting for a period longer than a week, please reach out to our sales or support team on the following  emails: <a href="mailto:partners@io.net">partners@io.net</a>, <a href="mailto:support@ionetwork.cloud">support@ionetwork.cloud</a>'
+                }]
+        },
+        14507: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                v: function () {
+                    return i
+                }
+            });
+            var a = n(57437);
+            let i = e => (0, a.jsx)("svg", {
+                width: 16,
+                height: 16,
+                ...e,
+                viewBox: "0 0 16 16",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: (0, a.jsx)("path", {
+                    fillRule: "evenodd",
+                    clipRule: "evenodd",
+                    d: "M3.64645 5.64645C3.84171 5.45118 4.15829 5.45118 4.35355 5.64645L8 9.29289L11.6464 5.64645C11.8417 5.45118 12.1583 5.45118 12.3536 5.64645C12.5488 5.84171 12.5488 6.15829 12.3536 6.35355L8.35355 10.3536C8.15829 10.5488 7.84171 10.5488 7.64645 10.3536L3.64645 6.35355C3.45118 6.15829 3.45118 5.84171 3.64645 5.64645Z",
+                    fill: "white",
+                    style: {
+                        fill: "white",
+                        fillOpacity: 1
+                    }
+                })
+            })
+        },
+        35265: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                Qd: function () {
+                    return d
+                },
+                UQ: function () {
+                    return l
+                },
+                o4: function () {
+                    return c
+                },
+                vF: function () {
+                    return m
+                }
+            });
+            var a = n(57437),
+                i = n(2265),
+                r = n(64756),
+                s = n(14507),
+                o = n(49354);
+            let l = r.fC,
+                d = i.forwardRef((e, t) => {
+                    let {
+                        className: n,
+                        ...i
+                    } = e;
+                    return (0, a.jsx)(r.ck, {
+                        ref: t,
+                        className: (0, o.cn)("border-b", n),
+                        ...i
+                    })
+                });
+            d.displayName = "AccordionItem";
+            let c = i.forwardRef((e, t) => {
+                let {
+                    className: n,
+                    children: i,
+                    ...l
+                } = e;
+                return (0, a.jsx)(r.h4, {
+                    className: "flex",
+                    children: (0, a.jsxs)(r.xz, {
+                        ref: t,
+                        className: (0, o.cn)("flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180", n),
+                        ...l,
+                        children: [i, (0, a.jsx)(s.v, {
+                            className: "h-6 shrink-0 transition-transform duration-200"
+                        })]
+                    })
+                })
+            });
+            c.displayName = r.xz.displayName;
+            let m = i.forwardRef((e, t) => {
+                let {
+                    className: n,
+                    children: i,
+                    ...s
+                } = e;
+                return (0, a.jsx)(r.VY, {
+                    ref: t,
+                    className: "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
+                    ...s,
+                    children: (0, a.jsx)("div", {
+                        className: (0, o.cn)("pb-4 pt-0", n),
+                        children: i
+                    })
+                })
+            });
+            m.displayName = r.VY.displayName
+        },
+        89733: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                d: function () {
+                    return l
+                },
+                z: function () {
+                    return d
+                }
+            });
+            var a = n(57437),
+                i = n(2265),
+                r = n(71538),
+                s = n(12218),
+                o = n(49354);
+            let l = (0, s.j)("inline-flex items-center justify-center whitespace-nowrap rounded-base text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300", {
+                    variants: {
+                        variant: {
+                            default: "bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90",
+                            chat: "bg-grey-1100 text-white font-normal rounded-base leading-[160%] border border-white/10 hover:bg-grey-1100/90 buttonChat",
+                            destructive: "bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90",
+                            outline: "border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",
+                            secondary: "bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80",
+                            ghost: "hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",
+                            link: "text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50"
+                        },
+                        size: {
+                            default: "h-10 px-4 py-2",
+                            sm: "h-9 rounded-md px-3",
+                            md: "h-[40px] rounded-md px-4",
+                            lg: "h-11 rounded-md px-8",
+                            icon: "h-10 w-10"
+                        }
+                    },
+                    defaultVariants: {
+                        variant: "default",
+                        size: "default"
+                    }
+                }),
+                d = i.forwardRef((e, t) => {
+                    let {
+                        className: n,
+                        variant: i,
+                        size: s,
+                        asChild: d = !1,
+                        ...c
+                    } = e, m = d ? r.g7 : "button";
+                    return (0, a.jsx)(m, {
+                        className: (0, o.cn)(l({
+                            variant: i,
+                            size: s,
+                            className: n
+                        })),
+                        ref: t,
+                        ...c
+                    })
+                });
+            d.displayName = "Button"
+        },
+        49354: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                cn: function () {
+                    return r
+                }
+            });
+            var a = n(44839),
+                i = n(96164);
+
+            function r() {
+                for (var e = arguments.length, t = Array(e), n = 0; n < e; n++) t[n] = arguments[n];
+                return (0, i.m6)((0, a.W)(t))
+            }
+        }
+    },
+    function (e) {
+        e.O(0, [8173, 4868, 4756, 634, 2971, 5318, 1744], function () {
+            return e(e.s = 16648)
+        }), _N_E = e.O()
+    }
+]);

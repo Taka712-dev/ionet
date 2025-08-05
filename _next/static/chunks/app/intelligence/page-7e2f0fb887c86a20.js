@@ -507,7 +507,7 @@
                 answer: "We support a wide variety of the latest models from Google, Microsoft, Alibaba, Mistral, DeepSeek, and other premier frontier AI labs."
             }, {
                 question: "Can IO Intelligence support my business use case?",
-                answer: "Yes! Please reach out to our team via the contact button or by sending a message to <a href='mailto:support@io.net' target='_blank' class='text-white underline'>support@io.net</a> with your specific business needs."
+                answer: "Yes! Please reach out to our team via the contact button or by sending a message to <a href='mailto:support@ionetwork.cloud' target='_blank' class='text-white underline'>support@ionetwork.cloud</a> with your specific business needs."
             }, {
                 question: "Can I integrate IO Intelligence with <br /> my existing stack?",
                 answer: "Yes. SDKs for any OpenAI compatible API client are fully supported as well as the IO Agents Framework package published at <a href='https://github.com/ionet-official/iointel' target='_blank' class='text-white underline'>here</a>."

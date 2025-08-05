@@ -634,7 +634,7 @@
                                             })
                                         })]
                                     }), (0, r.jsxs)("a", {
-                                        href: "https://docs.io.net/",
+                                        href: "https://docs.ionetwork.cloud",
                                         target: "_blank",
                                         className: "flex flex-row items-center gap-3 px-4 text-sm font-medium leading-[160%] tracking-[-0.42px]",
                                         children: [(0, r.jsx)("span", {

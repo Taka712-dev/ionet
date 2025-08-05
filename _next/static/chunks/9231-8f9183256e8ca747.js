@@ -673,8 +673,8 @@
                 f = s(49354);
             let y = "https://explorer.ionetwork.cloud",
                 x = "/",
-                u = "https://docs.io.net/reference/get-started-with-io-intelligence-api",
-                h = "https://docs.io.net/docs/deploy-cluster",
+                u = "https://docs.ionetwork.cloud",
+                h = "https://docs.ionetwork.cloud",
                 _ = [{
                     label: "IO Intelligence",
                     href: "/intelligence",
@@ -804,7 +804,7 @@
                 }, {
                     value: "documentation",
                     label: "Docs",
-                    href: "https://docs.io.net/",
+                    href: "https://docs.ionetwork.cloud",
                     target: "_blank"
                 }],
                 A = [{
